@@ -1,0 +1,15 @@
+{
+    "name": "@alessiodf/productivity-statistics",
+    "version": "0.0.1",
+    "description": "View productivity statistics of delegates on ARK-powered blockchains",
+    "homepage": "https://github.com/alessiodf/productivity-statistics",
+    "main": "lib/index.js",
+    "author": "alessiodf",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "better-sqlite3": "^5.4.3",
+        "delay": "^4.3.0",
+        "@hapi/boom": "^7.4.3",
+        "path": "^0.12.7"
+    }
+}
