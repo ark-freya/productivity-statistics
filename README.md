@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the Productivity Statistics plugin. It augments the `delegates` API endpoints within Core for ARK and ARK-powered blockchains by including statistics to display the number of missed rounds and slots for each delegate, along with a productivity score (`1 - missed ÷ forged`).
+This repository contains the Productivity Statistics plugin. It augments the `delegates` API endpoints within Core for ARK and ARK-powered blockchains by including statistics to display the number of missed rounds and slots for each delegate, along with a productivity score (`forged / (forged + missed)`).
 
 The time periods are fully configurable and, by default, there are daily (24 hours), weekly (7 days), monthly (30 days) and quarterly (90 days) statistics.
 
