@@ -1,6 +1,6 @@
 {
     "name": "@alessiodf/productivity-statistics",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "View productivity statistics of delegates on ARK-powered blockchains",
     "homepage": "https://github.com/alessiodf/productivity-statistics",
     "main": "lib/index.js",
