@@ -1,0 +1,29 @@
+{
+    "name": "@alessiodf/productivity-statistics",
+    "description": "Productivity Statistics for ARK Core",
+    "homepage": "https://github.com/alessiodf/productivity-statistics",
+    "version": "1.3.0-next.0",
+    "contributors": [
+        "alessiodf <alessiodf@pm.me>"
+    ],
+    "license": "GPL-3.0-or-later",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "prepublishOnly": "yarn pretest",
+        "pretest": "yarn lint && yarn build",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "build": "yarn clean && yarn compile",
+        "build:watch": "yarn clean && yarn compile -w",
+        "clean": "del dist",
+        "lint": "../../node_modules/eslint/bin/eslint.js 'src/**/*.ts' --fix"
+    },
+    "dependencies": {
+        "better-sqlite3": "^7.1.2"
+    },
+    "devDependencies": {
+        "@arkecosystem/core": "^3.0.0-next.30"
+    }
+}
